@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e1b8b849;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+        line-height: 1.4;
+    
+}
+
+.center {
+    margin: auto ; 
+    padding: 8px 180px;
+    }
+
+
+h2,p{
+    text-align:center
+}
+
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    overflow-y: auto;
+}
+
+.title{
+   
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 80px;
+        opacity: 0.5;
+    }
+
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+  /* border-bottom: 1px solid gray; */
+  border-radius: 5px;
+  height: 40px;
+  /* box-shadow: 5px 5px rgb(0, 0, 1, 0.5); */
+  /* font-weight: bold; */
+  flex-wrap: wrap;
+  width: 325px;
+  
+}
+
+.center{
+    align-items:center;
+}
+
+.deleteTask{
+    cursor: pointer;
+
+}
+
+.doneTask{
+    cursor: pointer;
+
+}
+
+.strike{
+    text-decoration:line-through; 
+}
+
+#pText{
+    background: #ffffff;
+    text-transform: capitalize;
+   
+}
+.inputvalue{
+   padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputVal{
+   
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: 3px solid #333;
+    }
+    
+  
+
+.btn{
+    width: 100px;
+    background:forestgreen;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clearTask{
+    padding-top: 10px;
+   background: rgb(208, 11, 11);
+   color: #ffffff;
+   width: 250px;
+   height: 35px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+}
